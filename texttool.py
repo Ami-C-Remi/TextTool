@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Outil de traitement de texte.
+Permet de calculer la longueur, les mots ou le préfixe.
+"""
 
 
 def process_line(line):
@@ -12,8 +16,13 @@ def process_line(line):
         return text.upper()
     if cmd == "lowercase":
         return text.lower()
+
     if command == 'prefix':
         print(text[:10])
+
+    if command == 'length':
+        print(len(text))
+
 
     return "Unknown command " + cmd
 

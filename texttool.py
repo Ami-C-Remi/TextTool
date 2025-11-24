@@ -33,6 +33,10 @@ def main():
 
         print(process_line(line))
 
+"""
+Fonction principale du programme.
+Gère la boucle d'interaction utilisateur.
+"""
 
 
 if __name__ == "__main__":
